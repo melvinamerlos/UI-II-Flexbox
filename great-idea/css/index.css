@@ -28,7 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: flex;
     flex-wrap: wrap;
-	border: 1px solid red;
 }
 body {
 	line-height: 1;
@@ -114,7 +113,6 @@ header nav a {
 
 .container .innovation div{
 	display: flex;
-	border: 3px solid blue;
 }
 
 .container .innovation div.right-side{
@@ -123,7 +121,6 @@ header nav a {
     position: absolute;
     right: 0;
 	top: 25px;
-	border: 1px solid purple;
 }
 
 .container .innovation div.left-side{
@@ -134,7 +131,6 @@ header nav a {
     position: absolute;
     left: 100px;
 	top: 100px;
-	border: 1px dashed blue;
 }
 
 a.button{
@@ -152,14 +148,12 @@ a.button{
 /* features-about-services-product-vision */
 div.blurb{
 	display: flex;
-    border: 2px solid rgb(134, 3, 106);
     align-items: bottom;
     flex-wrap: wrap;
 }
 
 section.features-about{
 	padding: 20px 0px;
-	border: 1px solid orange;
 }
 
 section.features-about div{
@@ -169,7 +163,6 @@ section.features-about div{
 /* services-product-vision */
 section.services-product-vision{
 	padding: 20px 0px;
-	border: 1px solid black;
 }
 
 section.services-product-vision div{
