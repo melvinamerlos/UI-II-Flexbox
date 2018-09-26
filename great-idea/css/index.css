@@ -169,6 +169,19 @@ section.services-product-vision div{
     width: 33%;
 }
 
+section.services-blurbs{
+	padding: 20px 0px;
+}
+
+section.services-blurbs div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px 5px;
+}
+
 .copyright {
   display: flex;
   flex-wrap: wrap;
@@ -179,5 +192,13 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
   }
+
+  footer p.big-text{
+    font-size: 55px;
+    font-family: 'Bangers', cursive;
+    position: relative;
+    padding: 20px 0px;
+    text-align: center;
+}
