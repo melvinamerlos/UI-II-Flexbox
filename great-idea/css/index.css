@@ -170,7 +170,11 @@ section.services-product-vision div{
 }
 
 section.services-blurbs{
-	padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    
 }
 
 section.services-blurbs div{
@@ -178,9 +182,16 @@ section.services-blurbs div{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    padding: 20px 5px;
+    height: 350px;
+    width: 350px;
+    width: 45%;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    line-height: 25px;
 }
+
+
 
 .copyright {
   display: flex;
